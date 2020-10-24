@@ -1,0 +1,27 @@
+.dialog {
+    display: flex;
+    align-items: center;
+}
+
+.dialog > a {
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+
+.dialog > a:hover {
+    color: rgb(105, 105, 105);
+}
+
+.dialog__active {
+    color: rgb(26, 26, 26);
+}
+
+.dialog__avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    object-fit: cover;
+    margin: 6px;
+}

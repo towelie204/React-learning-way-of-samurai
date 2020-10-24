@@ -1,0 +1,35 @@
+.post {
+    color: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.post__block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.post__text {
+    margin: 0;
+}
+
+.avatar {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    float: left;
+    margin: 0 12px 0 0;
+}
+
+.likes {
+    display: flex;
+    margin: 0 50px;
+}
+
+.post__like {
+    margin: 0 0 0 6px;
+}

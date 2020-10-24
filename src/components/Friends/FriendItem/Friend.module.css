@@ -1,0 +1,17 @@
+.friend__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.friend__avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    object-fit: cover;
+    margin: 6px;
+}
+
+.friend__name {
+    font-size: 18px;
+    color: rgb(46, 46, 46);
+}

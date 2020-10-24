@@ -1,0 +1,19 @@
+.myPosts {
+    padding: 15px 25px;
+}
+
+.addPost__wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 0 30px 0;
+}
+
+.addPost__btn {
+    margin: 0 0 0 12px;
+    padding: 6px 8px;
+    font-size: 16px;
+}
+
+.addPost__input {
+    width: 400px;
+}
